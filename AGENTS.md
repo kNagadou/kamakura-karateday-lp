@@ -283,14 +283,14 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 ## 今後の実装予定
 
 - [ ] 多言語対応（next-intl）
-- [ ] セクション別コンポーネント分離
-- [ ] Header/Footerコンポーネント
+- [x] セクション別コンポーネント分離
+- [x] Header/Footerコンポーネント
 - [ ] スクロールアニメーション（Intersection Observer）
-- [ ] お問い合わせフォーム
+- [x] お問い合わせフォーム（UIのみ、送信機能は未実装）
 - [ ] タイムライン・スケジュールセクション
-- [ ] 実行委員会紹介セクション
+- [x] 実行委員会紹介セクション
 - [ ] 協賛企業ロゴセクション
-- [ ] GitHub Actionsデプロイワークフロー
+- [x] GitHub Actionsデプロイワークフロー
 - [ ] sitemap.xml, robots.txt
 - [ ] OGP画像
 
