@@ -10,7 +10,7 @@
 
 ### イベント情報
 
-- **奉納演武**: 2026年10月25日（日） @ 鎌倉市円覚寺  
+- **奉納演武**: 2026年10月25日（日） @ 鎌倉市円覚寺
 - **沖縄×鎌倉交流祭**: 2026年11月8日（日） @ 鎌倉海浜公園 由比ヶ浜地域多目的広場
 
 ### 実行委員会
@@ -246,11 +246,11 @@ npm audit fix
 
 ```tsx
 // app/[locale]/layout.tsx
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider } from "next-intl";
 
 export default async function LocaleLayout({ children, params: { locale } }) {
   const messages = await import(`@/locales/${locale}.json`);
-  
+
   return (
     <html lang={locale}>
       <NextIntlClientProvider locale={locale} messages={messages.default}>
