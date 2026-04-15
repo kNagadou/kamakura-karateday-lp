@@ -28,7 +28,7 @@
 - **i18n**: next-intl（日英バイリンガル対応予定）
 - **ホスティング**: GitHub Pages（静的エクスポート）
 - **デプロイ**: GitHub Actions
-- **パッケージマネージャー**: npm
+- **パッケージマネージャー**: pnpm
 
 ## ディレクトリ構造
 
@@ -61,7 +61,7 @@ kamakura-karateday-lp/
 ├── CLAUDE.md                   # シンボリックリンク → AGENTS.md
 ├── LICENSE                     # MITライセンス
 ├── next.config.js              # Next.js設定（静的エクスポート、セキュリティヘッダー）
-├── package.json                # npm設定
+├── package.json                # pnpm設定
 ├── postcss.config.js           # PostCSS設定
 ├── README.md                   # プロジェクト説明
 ├── SECURITY.md                 # セキュリティポリシー
@@ -187,7 +187,7 @@ className="text-[#3f51b5]" // NG
 - ✅ Dependabot有効化（週次で依存関係更新PR）
 - ✅ HTTPS強制（GitHub Pages）
 - ✅ TypeScript strict mode
-- ✅ `npm audit`定期実行
+- ✅ `pnpm audit`定期実行
 
 ### 除外されるリスク（静的サイトのため不要）
 
@@ -206,22 +206,22 @@ className="text-[#3f51b5]" // NG
 
 ```bash
 # 開発サーバー起動（http://localhost:3000）
-npm run dev
+pnpm dev
 
 # 本番ビルド（静的エクスポート → out/）
-npm run build
+pnpm build
 
 # 本番サーバー起動（ローカル確認用）
-npm run start
+pnpm start
 
 # ESLint実行
-npm run lint
+pnpm lint
 
 # 依存関係の脆弱性チェック
-npm audit
+pnpm audit
 
 # 依存関係の脆弱性修正
-npm audit fix
+pnpm audit fix
 ```
 
 ## デプロイフロー
@@ -229,7 +229,7 @@ npm audit fix
 1. **ローカルでコミット**: `git add .` → `git commit -m "..."`
 2. **mainブランチにpush**: `git push origin main`
 3. **GitHub Actions自動実行**: `.github/workflows/deploy.yml`
-4. **静的ファイル生成**: `npm run build` → `out/`
+4. **静的ファイル生成**: `pnpm build` → `out/`
 5. **GitHub Pagesへデプロイ**: `gh-pages`ブランチに自動push
 6. **公開URL**: `https://kNagadou.github.io/kamakura-karateday-lp/`
 

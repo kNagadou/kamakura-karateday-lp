@@ -25,28 +25,30 @@
 
 ## 📦 セットアップ
 
+- **パッケージマネージャー**: pnpm
+
 ### 必要要件
 
 - Node.js 20以上
-- npm
+- pnpm 10以上
 
 ### ローカル開発
 
 ```bash
 # 依存関係インストール
-npm install
+pnpm install
 
 # 開発サーバー起動（http://localhost:3000）
-npm run dev
+pnpm dev
 
 # 本番ビルド（静的エクスポート）
-npm run build
+pnpm build
 
 # リント実行
-npm run lint
+pnpm lint
 
 # セキュリティ監査
-npm audit
+pnpm audit
 ```
 
 ## 🎨 デザイン
@@ -94,7 +96,7 @@ kamakura-karateday-lp/
 - ✅ Dependabot有効化（週次更新）
 - ✅ セキュリティヘッダー設定（CSP、X-Frame-Options等）
 - ✅ TypeScript strict mode
-- ✅ 定期的な`npm audit`実行
+- ✅ 定期的な`pnpm audit`実行
 - ✅ HTTPS強制（GitHub Pages）
 
 詳細は[SECURITY.md](SECURITY.md)をご覧ください。
