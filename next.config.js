@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/kamakura-karateday-lp',
+  // ローカル開発時はbasePathを無効化、本番環境（GitHub Pages）では有効化
+  basePath: process.env.NODE_ENV === 'production' ? '/kamakura-karateday-lp' : '',
   images: {
     unoptimized: true,
   },
