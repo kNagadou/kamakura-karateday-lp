@@ -1,0 +1,7 @@
+# Sitemap for Kamakura Karate Day 2026
+# https://knagadou.github.io/kamakura-karateday-lp/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://knagadou.github.io/kamakura-karateday-lp/sitemap.xml

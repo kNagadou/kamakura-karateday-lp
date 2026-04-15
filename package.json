@@ -1,0 +1,42 @@
+{
+  "name": "kamakura-karateday-lp",
+  "version": "1.0.0",
+  "description": "* ソースコードに関しては MIT License で公開しています。 * 掲載されている写真、ロゴ、文章などのコンテンツの著作権は、**鎌倉空手の日実行委員会**に帰属します。これらコンテンツの無断転載・再利用は禁止します。",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kNagadou/kamakura-karateday-lp.git"
+  },
+  "keywords": [
+    "karate",
+    "kamakura",
+    "landing-page",
+    "next.js"
+  ],
+  "author": "鎌倉空手の日実行委員会",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kNagadou/kamakura-karateday-lp/issues"
+  },
+  "homepage": "https://github.com/kNagadou/kamakura-karateday-lp#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.3",
+    "next": "^16.2.3",
+    "postcss": "^8.5.10",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2"
+  }
+}
