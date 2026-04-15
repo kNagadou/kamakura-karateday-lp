@@ -18,10 +18,10 @@ export default function EventsSection() {
               </p>
               <p className="flex items-center">
                 <span className="font-semibold mr-2">📍 場所:</span>
-                鎌倉市円覚寺
+                調整中
               </p>
               <p className="mt-4">
-                沖縄空手と縁が深い鎌倉円覚寺にて、空手道の発展と世界平和を祈念します。
+                空手道の発展と世界平和を祈念します。
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function EventsSection() {
               </p>
               <p className="flex items-center">
                 <span className="font-semibold mr-2">📍 場所:</span>
-                鎌倉海浜公園 由比ヶ浜地域多目的広場
+                調整中
               </p>
               <p className="mt-4">
                 空手一斉演武、エイサー演舞、グルメグランプリなど、

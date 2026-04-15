@@ -12,11 +12,11 @@ export default function HeroSection() {
           Kamakura Karate Day 2026
         </p>
         <p className="text-lg md:text-xl text-gray-300 mb-8">
-          唐手から空手へ。円覚寺で Re-brand して世界へ。
+          唐手から空手へ。Re-brand して世界へ。
         </p>
         <div className="space-y-2 text-gold-500 font-medium">
-          <p>奉納演武: 2026年10月25日（日）円覚寺</p>
-          <p>沖縄×鎌倉交流祭: 2026年11月8日（日）鎌倉海浜公園</p>
+          <p>奉納演武: 2026年10月25日（日）会場調整中</p>
+          <p>沖縄×鎌倉交流祭: 2026年11月8日（日）会場調整中</p>
         </div>
       </div>
       <div className="absolute inset-0 bg-black opacity-30"></div>

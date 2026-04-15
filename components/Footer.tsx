@@ -20,10 +20,10 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-4">イベント情報</h3>
             <ul className="space-y-2 text-sm">
               <li>奉納演武: 2026年10月25日（日）</li>
-              <li>会場: 鎌倉市円覚寺</li>
+              <li>会場: 調整中</li>
               <li className="mt-3">沖縄×鎌倉交流祭:</li>
               <li>2026年11月8日（日）</li>
-              <li>鎌倉海浜公園 由比ヶ浜地域多目的広場</li>
+              <li>調整中</li>
             </ul>
           </div>
 

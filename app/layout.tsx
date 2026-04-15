@@ -11,8 +11,8 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "鎌倉空手の日 2026 | Kamakura Karate Day 2026",
-  description: "沖縄伝統の空手が今後ますます発展し、世界の平和と人々の幸福に貢献することに願いを込めて。2026年10月25日、鎌倉円覚寺にて奉納演武を開催。",
-  keywords: ["空手", "鎌倉", "円覚寺", "沖縄", "karate", "kamakura"],
+  description: "沖縄伝統の空手が今後ますます発展し、世界の平和と人々の幸福に貢献することに願いを込めて。2026年10月25日、鎌倉にて奉納演武を開催。",
+  keywords: ["空手", "鎌倉", "沖縄", "karate", "kamakura"],
   authors: [{ name: "鎌倉空手の日実行委員会" }],
   openGraph: {
     title: "鎌倉空手の日 2026",

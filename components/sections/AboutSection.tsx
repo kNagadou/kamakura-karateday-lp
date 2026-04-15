@@ -16,10 +16,28 @@ export default function AboutSection() {
               — 沖縄県議会 決議文
             </footer>
           </blockquote>
-          <p className="text-lg leading-relaxed">
-            沖縄県から「空手の日」のイベント同時開催の提案を受け、
-            沖縄空手と縁が深い鎌倉円覚寺にて、空手道の発展と世界平和を祈念する
-            奉納演武を開催いたします。
+
+          <h3 className="text-2xl font-bold mt-12 mb-6 text-charcoal-800">
+            鎌倉と沖縄をつなぎ、「平和の武」空手を世界へ！
+          </h3>
+          <p className="text-lg leading-relaxed mb-6">
+            鎌倉と沖縄。遠く離れたこの2つの地域には、実は深い「縁」があるのをご存知でしょうか？
+          </p>
+          <p className="text-lg leading-relaxed mb-6">
+            私たちは、市民や地元企業、寺社仏閣が一体となって活動する「鎌倉×沖縄 空手の日プロジェクト」実行委員会です。
+            現在、世界中に1億3000万人以上の愛好家を持つ「空手」をテーマに、2つの地域をつなぐ新たなプロジェクトに挑戦しています。
+          </p>
+
+          <h3 className="text-2xl font-bold mt-12 mb-6 text-charcoal-800">
+            なぜ、鎌倉と沖縄をつなぐのか？
+          </h3>
+          <p className="text-lg leading-relaxed mb-6">
+            空手は沖縄発祥の武術ですが、かつては中国由来の「唐手（とうで）」と呼ばれていました。
+            その名称が「空手（からて）」へと生まれ変わった舞台が、実は鎌倉の円覚寺なのです。
+          </p>
+          <p className="text-lg leading-relaxed mb-6">
+            1920年代、当時の空手家たちが円覚寺で禅の修行を行い、仏教の「空（くう）」の概念を取り入れたことで、単なる武術から精神修養の「道」へと昇華されました。
+            つまり、沖縄が空手の「肉体的な発祥の地」なら、鎌倉は「精神的な誕生の地」なのです。
           </p>
         </div>
       </div>
