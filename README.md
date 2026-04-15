@@ -9,28 +9,20 @@
 **奉納演武**: 2026年10月25日（日） @ 調整中  
 **沖縄×鎌倉交流祭**: 2026年11月8日（日） @ 調整中
 
-### 実行委員会
-
-鎌倉空手の日実行委員会は、沖縄と鎌倉の歴史的な繋がりを基に、空手道の発展と世界平和を目指して活動しています。メンバーは鎌倉市内の空手愛好者、まちづくりに関わる市民、そして有志企業で構成されています。
-
 ## 🚀 技術スタック
 
-- **フレームワーク**: Next.js 16 (App Router)
-- **言語**: TypeScript
-- **スタイリング**: Tailwind CSS 4
-- **デプロイ**: GitHub Pages（静的エクスポート）
-- **CI/CD**: GitHub Actions
+- Next.js 16 (App Router) + TypeScript
+- Tailwind CSS 4
+- GitHub Pages (静的エクスポート)
 
 ## 📦 セットアップ
-
-- **パッケージマネージャー**: pnpm
 
 ### 必要要件
 
 - Node.js 20以上
 - pnpm 10以上
 
-### ローカル開発
+### クイックスタート
 
 ```bash
 # 依存関係インストール
@@ -39,65 +31,9 @@ pnpm install
 # 開発サーバー起動（http://localhost:3000）
 pnpm dev
 
-# 本番ビルド（静的エクスポート）
+# 本番ビルド
 pnpm build
-
-# リント実行
-pnpm lint
-
-# セキュリティ監査
-pnpm audit
 ```
-
-## 🎨 デザイン
-
-**コンセプト**: 和モダン - 伝統と現代の融合
-
-### カラーパレット
-
-- **藍色（Indigo）**: `#3f51b5` - メインカラー
-- **墨色（Charcoal）**: `#616161` - テキスト・背景
-- **金色（Gold）**: `#d4af37` - アクセント
-
-### フォント
-
-- Noto Sans JP（Google Fonts）
-
-## 📁 ディレクトリ構造
-
-```
-kamakura-karateday-lp/
-├── .github/
-│   ├── dependabot.yml          # 依存関係自動更新
-│   └── workflows/
-│       └── deploy.yml          # GitHub Pages自動デプロイ
-├── app/
-│   ├── layout.tsx              # ルートレイアウト
-│   ├── page.tsx                # メインページ
-│   └── globals.css             # グローバルスタイル
-├── components/                 # 再利用可能コンポーネント（今後追加）
-├── lib/                        # ユーティリティ（今後追加）
-├── locales/                    # 多言語翻訳ファイル（今後追加）
-├── public/
-│   └── robots.txt              # SEO設定
-├── .env.example                # 環境変数テンプレート
-├── AGENTS.md                   # AIエージェント用コンテキスト
-├── CLAUDE.md                   # シンボリックリンク → AGENTS.md
-├── SECURITY.md                 # セキュリティポリシー
-├── next.config.js              # Next.js設定
-├── tailwind.config.ts          # Tailwind CSS設定
-└── tsconfig.json               # TypeScript設定
-```
-
-## 🔒 セキュリティ
-
-- ✅ Dependabot有効化（週次更新）
-- ✅ セキュリティヘッダー設定（CSP、X-Frame-Options等）
-- ✅ TypeScript strict mode
-- ✅ 定期的な`pnpm audit`実行
-- ✅ HTTPS強制（GitHub Pages）
-
-詳細は[SECURITY.md](SECURITY.md)をご覧ください。
 
 ## 🚢 デプロイ
 
@@ -105,23 +41,11 @@ mainブランチへのpushで自動的にGitHub Pagesへデプロイされます
 
 **公開URL**: https://knagadou.github.io/kamakura-karateday-lp/
 
-### GitHub Pages設定
+## 👨‍💻 開発者向けドキュメント
 
-1. リポジトリ → Settings → Pages
-2. Source: "GitHub Actions"を選択
-3. 自動デプロイ開始
+実装方針、コーディング規約、詳細な技術仕様については [AGENTS.md](AGENTS.md) をご覧ください。
 
-## 📝 今後の実装予定
-
-- [ ] 多言語対応（日英バイリンガル）
-- [x] Header/Footerコンポーネント
-- [x] セクション別コンポーネント分離
-- [x] 実行委員会紹介セクション
-- [x] お問い合わせフォーム（UIのみ）
-- [ ] 沖縄と鎌倉の繋がりセクション
-- [ ] タイムライン/スケジュールセクション
-- [ ] スクロールアニメーション
-- [ ] 画像アセット追加
+セキュリティポリシーについては [SECURITY.md](SECURITY.md) をご覧ください。
 
 ## 📄 ライセンス
 
