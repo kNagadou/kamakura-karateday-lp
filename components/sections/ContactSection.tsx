@@ -9,9 +9,9 @@ export default function ContactSection() {
           イベントに関するご質問やお問い合わせは、以下のフォームよりお気軽にご連絡ください。
         </p>
 
-        <div className="bg-white rounded-lg shadow-md p-8">
+        {/* フォームは準備中のためコメントアウト */}
+        {/* <div className="bg-white rounded-lg shadow-md p-8">
           <form className="space-y-6">
-            {/* お名前 */}
             <div>
               <label
                 htmlFor="name"
@@ -29,7 +29,6 @@ export default function ContactSection() {
               />
             </div>
 
-            {/* メールアドレス */}
             <div>
               <label
                 htmlFor="email"
@@ -47,7 +46,6 @@ export default function ContactSection() {
               />
             </div>
 
-            {/* お問い合わせ内容 */}
             <div>
               <label
                 htmlFor="message"
@@ -65,7 +63,6 @@ export default function ContactSection() {
               />
             </div>
 
-            {/* 送信ボタン */}
             <div className="text-center">
               <button
                 type="submit"
@@ -74,12 +71,14 @@ export default function ContactSection() {
                 送信する
               </button>
             </div>
-
-            {/* 注意事項 */}
-            <p className="text-xs text-gray-500 text-center mt-4">
-              ※ このフォームは現在準備中です。お急ぎの方は実行委員会へ直接お問い合わせください。
-            </p>
           </form>
+        </div> */}
+
+        {/* 注意事項 */}
+        <div className="bg-white rounded-lg shadow-md p-8">
+          <p className="text-center text-charcoal-600">
+            ※ このフォームは現在準備中です。お急ぎの方は実行委員会へ直接お問い合わせください。
+          </p>
         </div>
       </div>
     </section>
