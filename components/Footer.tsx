@@ -8,11 +8,6 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-4">
               鎌倉空手の日実行委員会
             </h3>
-            <ul className="space-y-2 text-sm">
-              <li>実行委員長: 菅 倫明</li>
-              <li>事務局長: 稲垣 安成</li>
-              <li>沖縄部会長: 長堂 嘉寿将</li>
-            </ul>
           </div>
 
           {/* イベント情報 */}
