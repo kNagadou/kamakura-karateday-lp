@@ -1,12 +1,16 @@
+import { useTranslations } from 'next-intl';
+
 export default function ContactSection() {
+  const t = useTranslations('contact');
+
   return (
     <section id="contact" className="py-20 px-4 bg-gray-50">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4 text-charcoal-800">
-          お問い合わせ
+          {t('title')}
         </h2>
         <p className="text-center text-charcoal-600 mb-12">
-          イベントに関するご質問やお問い合わせは、以下のフォームよりお気軽にご連絡ください。
+          {t('description')}
         </p>
 
         {/* フォームは準備中のためコメントアウト */}
@@ -76,9 +80,7 @@ export default function ContactSection() {
 
         {/* 注意事項 */}
         <div className="bg-white rounded-lg shadow-md p-8">
-          <p className="text-center text-charcoal-600">
-            ※ このフォームは現在準備中です。お急ぎの方は実行委員会へ直接お問い合わせください。
-          </p>
+          <p className="text-center text-charcoal-600">{t('notice')}</p>
         </div>
       </div>
     </section>

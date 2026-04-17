@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "Kamakura Karate Day 2026 | Traditional Okinawan Karate Meets Kamakura Spirit",
+    "description": "Join us in celebrating the spiritual birthplace of modern Karate. Dedication ceremony on October 25, 2026 in Kamakura, commemorating the historical connection between Okinawa and Kamakura.",
+    "siteName": "Kamakura Karate Day",
+    "ogTitle": "Kamakura Karate Day 2026",
+    "ogDescription": "A historic event where traditional Okinawan Karate meets the spirit of Kamakura",
+    "twitterTitle": "Kamakura Karate Day 2026",
+    "twitterDescription": "A historic event where traditional Okinawan Karate meets the spirit of Kamakura"
+  },
+  "header": {
+    "logo": "Kamakura Karate Day 2026",
+    "nav": {
+      "about": "About Karate Day",
+      "events": "Events",
+      "committee": "Committee",
+      "contact": "Contact"
+    },
+    "mobileMenuLabel": "Menu"
+  },
+  "hero": {
+    "title": "Kamakura Karate Day 2026",
+    "subtitle": "鎌倉空手の日 2026",
+    "tagline": "From Tōde to Karate. Re-branding for the World.",
+    "event1": "Dedication Ceremony: {date}",
+    "event1Location": "Venue TBA",
+    "event2": "Okinawa × Kamakura Exchange Festival: {date}",
+    "event2Location": "Venue TBA"
+  },
+  "about": {
+    "title": "About Karate Day",
+    "intro": "On March 29, 2005, the Okinawa Prefectural Assembly designated October 25 as \"Karate Day.\"",
+    "quote": "\"With the hope that traditional Okinawan Karate will continue to develop and contribute to world peace and people's happiness, we declare October 25 as 'Karate Day.'\"",
+    "quoteSource": "Okinawa Prefectural Assembly Resolution",
+    "section1Title": "Connecting Kamakura and Okinawa: Spreading the \"Martial Art of Peace\" to the World!",
+    "section1Para1": "Did you know that Kamakura and Okinawa, though geographically distant, share a profound historical connection?",
+    "section1Para2": "We are the \"Kamakura × Okinawa Karate Day Project\" Executive Committee, bringing together citizens, local businesses, and temples and shrines. We are embarking on a new project connecting these two regions through \"Karate,\" a martial art with over 130 million practitioners worldwide.",
+    "section2Title": "Why Connect Kamakura and Okinawa?",
+    "section2Para1": "Karate originated in Okinawa but was once called \"Tōde\" (Tang hand), reflecting its Chinese roots. The transformation to \"Karate\" (empty hand) actually took place at Engaku-ji Temple in Kamakura.",
+    "section2Para2": "In the 1920s, karate masters practiced Zen meditation at Engaku-ji Temple, incorporating the Buddhist concept of \"emptiness (Kū).\" This transformed karate from mere martial technique into a spiritual \"Way\" (Dō). Thus, while Okinawa is karate's physical birthplace, Kamakura is its spiritual birthplace."
+  },
+  "events": {
+    "title": "Event Details",
+    "dedication": {
+      "title": "Dedication Ceremony",
+      "date": "Date: {date}",
+      "location": "Location: TBA",
+      "description": "Praying for the development of Karate-do and world peace."
+    },
+    "festival": {
+      "title": "Okinawa × Kamakura Exchange Festival",
+      "date": "Date: {date}",
+      "location": "Location: TBA",
+      "description": "A festival creating new opportunities for exchange and development between Okinawa and Kamakura, featuring synchronized karate demonstrations, Eisa dance performances, and gourmet competitions. Live streaming via Zoom with the commemorative demonstration event on Okinawa's Kokusai Street."
+    }
+  },
+  "committee": {
+    "title": "Kamakura Karate Day Executive Committee",
+    "para1": "The Kamakura Karate Day Executive Committee works to promote the development of Karate-do and world peace, based on the historical connection between Okinawa and Kamakura.",
+    "para2": "Our members include karate enthusiasts from Kamakura City, citizens actively involved in community development, and volunteer companies.",
+    "para3": "We don't intend this to be a one-time festival. We aim to create the foundation for \"martial arts tourism,\" where karate fans from around the world visit Kamakura and Okinawa to explore the roots of karate, and develop a model for \"regenerative tourism\" that allows deep experiences of regional history and culture."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Please feel free to contact us with any questions or inquiries about the event using the form below.",
+    "notice": "※ This form is currently under preparation. For urgent inquiries, please contact the Executive Committee directly."
+  },
+  "footer": {
+    "committeeTitle": "Kamakura Karate Day Executive Committee",
+    "eventsTitle": "Event Information",
+    "event1": "Dedication Ceremony: {date}",
+    "event1Venue": "Venue: TBA",
+    "event2Label": "Okinawa × Kamakura Exchange Festival:",
+    "event2": "{date}",
+    "event2Venue": "TBA",
+    "linksTitle": "Links",
+    "linkAbout": "About Karate Day",
+    "linkEvents": "Events",
+    "linkCommittee": "Committee",
+    "linkContact": "Contact",
+    "copyright": "© 2026 Kamakura Karate Day Executive Committee. All rights reserved.",
+    "license": "Source code is released under the MIT License. Content copyrights (photos, logos, text) belong to the Kamakura Karate Day Executive Committee."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "backToHome": "Back to Home"
+  }
+}
