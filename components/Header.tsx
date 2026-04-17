@@ -1,13 +1,21 @@
+import { useTranslations, useLocale } from 'next-intl';
+import LanguageSwitcher from './LanguageSwitcher';
+
 export default function Header() {
+  const t = useTranslations('header');
+  const locale = useLocale();
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* ロゴ */}
           <div className="flex-shrink-0">
-            <h1 className="text-xl font-bold text-indigo-700">
-              鎌倉空手の日 2026
-            </h1>
+            <a href={`/${locale}`}>
+              <h1 className="text-xl font-bold text-indigo-700">
+                {t('logo')}
+              </h1>
+            </a>
           </div>
 
           {/* ナビゲーションメニュー */}
@@ -16,34 +24,36 @@ export default function Header() {
               href="#about"
               className="text-charcoal-700 hover:text-indigo-600 transition-colors font-medium"
             >
-              空手の日とは
+              {t('nav.about')}
             </a>
             <a
               href="#events"
               className="text-charcoal-700 hover:text-indigo-600 transition-colors font-medium"
             >
-              イベント詳細
+              {t('nav.events')}
             </a>
             <a
               href="#committee"
               className="text-charcoal-700 hover:text-indigo-600 transition-colors font-medium"
             >
-              実行委員会
+              {t('nav.committee')}
             </a>
             <a
               href="#contact"
               className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors font-medium"
             >
-              お問い合わせ
+              {t('nav.contact')}
             </a>
+            <LanguageSwitcher locale={locale} />
           </div>
 
           {/* モバイルメニューボタン（今後実装予定） */}
-          <div className="md:hidden">
+          <div className="md:hidden flex items-center space-x-4">
+            <LanguageSwitcher locale={locale} />
             <button
               type="button"
               className="text-charcoal-700 hover:text-indigo-600"
-              aria-label="メニュー"
+              aria-label={t('mobileMenuLabel')}
             >
               <svg
                 className="h-6 w-6"

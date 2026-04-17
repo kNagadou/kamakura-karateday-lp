@@ -1,6 +1,7 @@
 {
   "name": "kamakura-karateday-lp",
   "version": "1.0.0",
+  "type": "module",
   "description": "* ソースコードに関しては MIT License で公開しています。 * 掲載されている写真、ロゴ、文章などのコンテンツの著作権は、**鎌倉空手の日実行委員会**に帰属します。これらコンテンツの無断転載・再利用は禁止します。",
   "scripts": {
     "dev": "next dev",
@@ -33,6 +34,7 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.3",
     "next": "^16.2.3",
+    "next-intl": "^4.9.1",
     "postcss": "^8.5.10",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
